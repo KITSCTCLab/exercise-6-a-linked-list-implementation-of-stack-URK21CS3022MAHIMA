@@ -12,7 +12,7 @@ class Stack:
     # Write your code here
     if not self.is_full():
             self.top+=1
-            self.items[self.top]=
+            self.items[self.top]=data
   def pop(self) -> None:
     # Write your code here 
    if not self.is_empty():
