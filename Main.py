@@ -10,12 +10,10 @@ class Stack:
 
   def push(self, data) -> None:
     # Write your code here
-    if not self.is_full():
             self.top+=1
             self.items[self.top]=data
   def pop(self) -> None:
     # Write your code here 
-   if not self.is_empty():
             x=self.items[self.top]
             self.top-=1
 
