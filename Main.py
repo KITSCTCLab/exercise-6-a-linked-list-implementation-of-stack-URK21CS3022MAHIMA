@@ -10,15 +10,22 @@ class Stack:
 
   def push(self, data) -> None:
     # Write your code here
-
+    if not self.is_full():
+            self.top+=1
+            self.items[self.top]=
   def pop(self) -> None:
-    # Write your code here
+    # Write your code here 
+   if not self.is_empty():
+            x=self.items[self.top]
+            self.top-=1
 
   def status(self):
     """
     It prints all the elements of stack.
     """
     # Write your code here  
+    for i in range(self.top+1):
+            print(self.items[i]) 
 
 
 # Do not change the following code
